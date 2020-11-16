@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;500;700&display=swap');
+html {
+	box-sizing: border-box;
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+	@media only screen and(min-width:$v-20) {
+		font-size: 72.5%;
+	}
+	@media only screen and(min-width:$v-4k) {
+		font-size: 85%;
+	}
+	@media only screen and(max-width:$v-9) {
+		font-size: 57.5%;
+	}
+	@media only screen and(max-width:$v-8) {
+		font-size: 55%;
+	}
+	@media only screen and(max-width:$v-6) {
+		font-size: 50%;
+	}
+}
+body {
+	background-color: var(--white);
+	font-family: 'Be Vietnam', sans-serif;
+
+	line-height: 1.6;
+	color: var(--blue-600);
+	font-size: 1.6rem;
+	overflow-x: hidden;
+}
+.heading-1 {
+	font-size: 5rem;
+	line-height: 1.25;
+	color: var(--blue-400);
+}
+.heading-2 {
+	font-size: 3.5rem;
+	line-height: 1.1;
+	color: var(--blue-400);
+}
+.heading-3 {
+	font-size: 2.2rem;
+	color: var(--blue-400);
+
+	line-height: 1.1;
+}

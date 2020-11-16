@@ -1,0 +1,48 @@
+.btn {
+	display: inline-block;
+
+	text-decoration: none;
+	border: 0;
+
+	background-color: var(--accent);
+	padding: 0.7em 2em;
+	border-radius: 5rem;
+	font-size: 1.8rem;
+
+	color: var(--grey);
+	font-weight: 600;
+
+	cursor: pointer;
+	transition: opacity 200ms ease-in-out;
+}
+.btn:focus {
+	outline: 1px solid var(--blue-400);
+}
+.btn-sec {
+	background-color: var(--grey);
+	color: var(--accent);
+}
+.btn-sec:focus {
+	outline: 1px solid var(--grey);
+}
+.btn:hover {
+	opacity: 0.8;
+}
+
+a {
+	text-decoration: none;
+	color: var(--font-primary);
+	outline: none;
+}
+a:hover,
+a:focus {
+	text-decoration: underline;
+}
+
+input:focus {
+	outline: 1px solid var(--grey);
+}
+
+p {
+	line-height: 1.8;
+}

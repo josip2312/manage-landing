@@ -1,0 +1,20 @@
+.spacing-sm > * + * {
+	margin-top: 1.5rem;
+}
+.spacing > * + * {
+	margin-top: 2.5rem;
+}
+.spacing-lg > * + * {
+	margin-top: 3.5rem;
+}
+.spacing-xl > * + * {
+	margin-top: 5rem;
+}
+.container {
+	width: 90%;
+	max-width: 120rem;
+	margin: 0 auto;
+	@media only screen and(min-width:$v-6) {
+		width: 85%;
+	}
+}
