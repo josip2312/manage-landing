@@ -76,8 +76,6 @@
 
 
 <style lang="scss" scoped>
-@import "@/assets/sass/_variables";
-
 .footer {
 	background-color: var(--blue-600);
 	padding: 5em 0;

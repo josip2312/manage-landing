@@ -20,8 +20,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "@/assets/sass/_variables";
-
 #cta {
 	position: relative;
 	background-color: var(--accent);

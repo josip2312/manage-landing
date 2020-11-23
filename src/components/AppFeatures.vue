@@ -55,8 +55,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "@/assets/sass/_variables";
-
 .features {
 	background-image: url(../assets/images/bg-tablet-pattern.svg);
 	background-origin: border-box;

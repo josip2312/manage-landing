@@ -59,8 +59,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "@/assets/sass/_variables";
-
 .fade-enter-from {
 	opacity: 0;
 }
