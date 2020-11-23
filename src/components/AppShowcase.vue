@@ -25,7 +25,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "@/assets/sass/_variables";
 .showcase {
 	min-height: 91vh;
 	display: flex;

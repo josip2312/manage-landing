@@ -24,8 +24,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "@/assets/sass/_variables";
-
 .nav {
 	position: absolute;
 	top: 7.5rem;

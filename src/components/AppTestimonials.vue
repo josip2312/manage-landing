@@ -85,8 +85,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "@/assets/sass/_variables";
-
 .testimonials {
 	padding: 5em 0;
 	text-align: center;
